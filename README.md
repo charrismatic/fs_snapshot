@@ -78,5 +78,7 @@ __CLI OPTIONS__
  - MODIFY PARAMETER LIST 
 
 
-__config tasks__
+__Config tasks__
 Include config to run on watched folders on a cron task
+
+__Color formatting list output / highlighting anomalies__
