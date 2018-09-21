@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# file snapshot (local directory)
+# file snapshot (local directory) 
 
-find ./ -printf "%Cy.%Cm.%Cd %CH:%CM %M %p %b %l \n" > .fs_snapshot
+TSTAMP=$(date +'%Y%m%d%H%M')
+
+find ./ -printf "%Cy.%Cm.%Cd %CH:%CM %M %p %b %l \n" > .fs_snapshot_$TSTAMP
 
